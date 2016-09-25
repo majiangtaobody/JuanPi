@@ -22,7 +22,7 @@ app
 //				$(this).css('borderBottom','0.1rem solid red')
 //			}
 			
-			console.log($(e.target)[0].nodeName)
+			// console.log($(e.target)[0].nodeName)
 			
 			switch($(e.target).text()){
 				case '精选':{			

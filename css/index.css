@@ -12,8 +12,8 @@ html,body{width:100%;height:100%;font-size: .7rem;}
   url('//at.alicdn.com/t/font_1474512976_1139832.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url('//at.alicdn.com/t/font_1474512976_1139832.svg#iconfont') format('svg'); /* iOS 4.1- */
 }                  
-	.iconfont{
-		font-family: "iconfont";
+   .iconfont{
+   	font-family: "iconfont";
    	font-size: .5rem;
    }
 

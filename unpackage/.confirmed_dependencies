@@ -1,17 +1,15 @@
 {
 	"index.html": {
 		"resources": [
-			"js/service/services.js",
 			"lib/swiper-3.3.1.jquery.min.js",
+			"css/index.css",
 			"lib/angular-css.min.js",
 			"js/controller/carCtrl.js",
-			"js/controller/discountCtrl.js",
-			"app.js",
-			"css/index.css",
 			"js/controller/globalCtrl.js",
+			"js/controller/discountCtrl.js",
 			"lib/jquery-2.1.1.js",
-			"js/filter/filters.js",
 			"js/controller/familyCtrl.js",
+			"app.js",
 			"css/swiper-3.3.1.min.css",
 			"js/controller/mineCtrl.js"
 		]

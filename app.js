@@ -5,8 +5,8 @@ window.onresize = function(){
 }
 
 	$('#index_footer a').on('touchstart',function(){
+        $('#index_footer span').css('color','#838383');
 		$('#index_footer a').css('color','#838383');
-		$('#index_footer span').css('color','#838383');
 		$(this).css('color','red');
 		$(this).find('span').css('color','red');
 	})
@@ -16,11 +16,11 @@ var app= angular.module('myApp',['ngRoute','angularCSS'])
     .config(['$routeProvider', function($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'./views/discount.html',
+                templateUrl:'./views/discount0.html',
                 controller:'discountCtrl'
             })
             .when('/family',{
-                templateUrl:'./views/family.html',
+                templateUrl:'/views/family.html',
                 controller:'familyCtrl'
             })
             .when('/global',{
@@ -34,6 +34,34 @@ var app= angular.module('myApp',['ngRoute','angularCSS'])
             .when('/mine',{
                 templateUrl:'./views/mine.html',
                 controller:'mineCtrl'
+            })
+            .when('/dwoman',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl1'
+            })
+            .when('/dshoots',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl2'
+            })
+             .when('/dmouth',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl3'
+            })
+              .when('/dnumber',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl4'
+            })
+               .when('/dman',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl5'
+            })
+                .when('/dbeauty',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl6'
+            })
+                 .when('/dfood',{
+                templateUrl:'./views/discount0.html',
+                controller:'discountCtrl7'
             })
             .otherwise({redirectTo:'/'});
     }]);
